@@ -1,2 +1,5 @@
-Person.php
+.*
 !.gitignore
+Search.php
+Person.php
+Image.php
