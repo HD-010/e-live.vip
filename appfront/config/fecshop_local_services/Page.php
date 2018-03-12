@@ -89,7 +89,6 @@ return [
                  */
 
                 'frontCustomMenu' => [
-
                 ],
 
                 /*
@@ -97,6 +96,24 @@ return [
                  */
                 'behindCustomMenu' => [
                     [
+                        'name'        => 'Healthy life',            // 菜单名字
+                        'urlPath'     => '/my-custom-menu.html',    // 菜单对应的url
+                        'childMenu'   => [
+                            [
+                                'name'        => 'Medicinal dishes',            // 菜单名字
+                                'urlPath'     => '',    // 菜单对应的url
+                            ],
+                            [
+                                'name'        => 'Soup and diet',            // 菜单名字
+                                'urlPath'     => '',    // 菜单对应的url
+                            ],
+                            [
+                                'name'        => 'Porridge meal',            // 菜单名字
+                                'urlPath'     => '',    // 菜单对应的url
+                            ],
+                        ],
+                    ],
+                    /* [
                         'name'        => 'custom menu',            // 菜单名字
                         'urlPath'     => '/my-custom-menu.html',    // 菜单对应的url
                         'childMenu'   => [                        // 子菜单
@@ -119,7 +136,7 @@ return [
                                 ],
                             ],
                         ],
-                    ],
+                    ], */
                 ],
             ],
 

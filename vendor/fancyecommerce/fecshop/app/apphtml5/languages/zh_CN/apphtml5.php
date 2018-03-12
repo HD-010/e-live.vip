@@ -51,7 +51,11 @@ return [
  'my custom menu 3'                => '我的自定义菜单3',
 
  'Home'                            => '首页',
-
+ 'Healthy life'                 => '健康之道',
+ 'Medicinal dishes'             => '药膳',
+ 'Soup and diet'                => '汤膳',
+ 'Porridge meal'                => '粥膳',
+    
  // 首页的产品列表块
  'best seller'                    => '热销产品',
  'featured products'            => '特色产品',
